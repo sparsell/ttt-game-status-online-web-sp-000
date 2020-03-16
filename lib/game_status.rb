@@ -15,6 +15,9 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 
-def won(board)
-  
+#accept a board as an argument
+#return false/nil if there is no win combination present in the board
+#return the winning combination indexes as an array if there is a win
+def won?(board)
+  if board != WIN_COMBINATIONS[]
 end
